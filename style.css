@@ -1,0 +1,62 @@
+@media screen {
+
+		
+	html {
+			background-color: #5F9EA0;
+	}
+		
+
+	body {
+     	font-family: 'Marcellus', "Helvetica Neue", Helvetica, Arial, sans-serif;
+     	font-size: 12px;
+     	color: #444;
+     	background-color: #fafafa;
+     	padding: 20px;
+	}
+
+	h1 {
+		font-family: 'Marcellus',serif;
+		color: teal;
+		text-transform: lowercase;
+	}
+
+	ul	{
+		list-style:none;
+		margin-left:0;
+		padding-left:0;
+	}
+
+	a:link {
+		color: #38c;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #A0522D;
+	}
+	a:hover, 
+	a:focus {
+		color: #000080;
+		font-weight:bold;
+	}
+	a:active {
+		color: #800080;
+	}
+
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		width: 700px;
+		margin: 20px auto;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+	}
+
+}
